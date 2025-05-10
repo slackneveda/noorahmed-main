@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 94%; /* #F0F0F0 */
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 184 96% 39%;
+    --primary-rgb: 3, 192, 198;
+    --primary-light: 184 96% 50%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 184 96% 39%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 10% 6.5%;
+    --foreground: 0 0% 98%;
+    --card: 220 10% 5.5%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 10% 5.5%;
+    --popover-foreground: 0 0% 98%;
+
+    /* --- Adjusted Dark Mode Primary Colors --- */
+    --primary: 184 96% 39%;       /* Teal color */
+    --primary-rgb: 3, 192, 198;   /* RGB equivalent of #03C0C6 */
+    --ring: 184 96% 39%;         /* Matches new primary */
+    /* --------------------------------------- */
+
+    --primary-light: 184 96% 50%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 10% 10%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 220 10% 10%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 12%;
+    --input: 220 10% 12%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    cursor: none !important;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    scroll-behavior: smooth;
+    cursor: none !important;
+  }
+  a, button, input, select, textarea, [role="button"], [type="button"], [type="submit"], [type="reset"] {
+    cursor: none !important;
+  }
+}
+
+/* 3D Button Effects */
+@layer components {
+  /* Base button 3D effects */
+  .btn-3d {
+    @apply relative transition-all duration-200 active:translate-y-1 active:shadow-inner;
+  }
+  
+  /* Specific 3D variant modifiers */
+  .btn-3d-primary {
+    @apply border-b-4 border-primary-foreground/20 shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5;
+    transform-style: preserve-3d;
+  }
+  
+  .btn-3d-secondary {
+    @apply border-b-4 border-secondary-foreground/10 shadow-md hover:shadow-lg hover:-translate-y-0.5;
+    transform-style: preserve-3d;
+  }
+  
+  .btn-3d-outline {
+    @apply border-b-4 shadow hover:shadow-md hover:-translate-y-0.5;
+    transform-style: preserve-3d;
+  }
+}
+
+@layer utilities {
+  /* Note: Fixed potential regex issue in class names */
+  .bg-grid-black\/\[\.04\] { /* Example: bg-grid-black/[.04] */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  }
+
+  .bg-grid-white\/\[\.04\] { /* Example: bg-grid-white/[.04] */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  }
+  
+  /* You might need different classes if you use different opacities, e.g., bg-grid-black/[.1] */
+  .bg-grid-black\/\[\.1\] { /* Example: bg-grid-black/[.1] */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.1)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  }
+
+  .bg-grid-white\/\[\.1\] { /* Example: bg-grid-white/[.1] */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.1)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  }
+}
+
+@keyframes meteor {
+  0% {
+    transform: translate(0, 0) rotate(215deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-500px, 500px) rotate(215deg);
+    opacity: 0;
+  }
+}
+
+.animate-meteor-effect {
+  animation-name: meteor;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite; /* Make sure it's infinite if that's the intention */
+}
