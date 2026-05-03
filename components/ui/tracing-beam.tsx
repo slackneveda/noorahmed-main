@@ -77,7 +77,7 @@ export const TracingBeam = ({
             strokeDasharray="6 6"
           />
           <motion.path
-            d={`M 1 ${y1} L 1 ${ySmooth}`}
+            d={`M 1 ${y1.get()} L 1 ${ySmooth.get()}`}
             fill="none"
             stroke="var(--primary)"
             strokeWidth="2"
@@ -88,7 +88,7 @@ export const TracingBeam = ({
               duration: 0.2,
               delay: 0.5,
             }}
-            d={`M 0 ${ySmooth} L 20 ${ySmooth}`}
+            d={`M 0 ${ySmooth.get()} L 20 ${ySmooth.get()}`}
             stroke="var(--primary)"
             strokeWidth="2"
             className="stroke-primary"

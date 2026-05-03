@@ -12,6 +12,70 @@ import Image from 'next/image' // Import Next.js Image component for optimizatio
 // Consider moving to data/projects.js
 const projects = [
   {
+    title: "ECHL — AI Lending Portal",
+    description:
+      "Full-stack lending portal with an AI-powered chatbot for natural language loan queries. Customers can explore products, check eligibility, and get guided through the application via a real-time streaming chat (SSE) backed by FastAPI + Anthropic Claude and a PostgreSQL data layer.",
+    image: "/echl.png",
+    tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "FastAPI", "PostgreSQL", "Anthropic Claude"],
+    demo: "https://lending-d4g4byg3fwesa0dx.centralus-01.azurewebsites.net/",
+  },
+  {
+    title: "WORN — Enterprise Ticketing System",
+    description:
+      "Customized and extended Microsoft Dynamics 365 with automated ticket routing, SLA-based escalation, multi-status lifecycle tracking, and email workflows. Backed by C#/ASP.NET Core integration services exposing clean REST APIs and Power Automate flows.",
+    image: "/worn.png",
+    tags: ["C#", "ASP.NET Core", "Entity Framework Core", "Dynamics 365", "Dataverse", "Power Automate"],
+    demo: "https://worn01-b7hncxgyc9etbwbu.centralus-01.azurewebsites.net/",
+  },
+  {
+    title: "HSS — AI Operations & Prospecting Workspace",
+    description:
+      "Enterprise operations workspace with AI-powered prospecting runs, account discovery, lead review queue, opportunities pipeline, automations, and reports. Built with a Next.js dashboard UI on a C#/ASP.NET Core backend, surfacing real-time workspace metrics and quick-action workflows.",
+    image: "/hss.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "C#", "ASP.NET Core", "AI Prospecting"],
+    demo: "https://heae93-private-bcbmcchwgec3bmd5.centralus-01.azurewebsites.net/home",
+  },
+  {
+    title: "Guestx — Team Performance Platform",
+    description:
+      "Full-stack business platform for measuring team effort, output, and performance through real-time call tracking, lead management, customer interaction timelines, and pipeline analytics. Next.js frontend consuming a C#/ASP.NET Core backend over REST APIs and SignalR for live updates.",
+    image: "/guestx.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "C#", "ASP.NET Core", "SignalR", "Microsoft Dataverse"],
+    demo: "https://v4.guestx.co/all-calls",
+  },
+  {
+    title: "HealthSphere — Healthcare Platform",
+    description:
+      "Modern healthcare dashboard for clinicians featuring smart appointment scheduling, electronic health records, telemedicine video calls, prescriptions, secure messaging, and HIPAA-compliant workflows. Real-time priority alerts surface critical lab results at a glance.",
+    image: "/healthsphere.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/UI", "Healthcare", "HIPAA"],
+    demo: "https://v0-healthcare-platform-design-lac.vercel.app/dashboard",
+  },
+  {
+    title: "GlamourBloom — Beauty E-commerce",
+    description:
+      "Elegant beauty and skincare e-commerce storefront with curated category browsing (Skincare, Makeup, Haircare, Body, Sets), hero carousel, product search, cart, and a polished mobile-first responsive UI tuned for high-conversion product discovery.",
+    image: "/glamor.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/UI", "E-commerce", "Responsive"],
+    demo: "https://v0-glamour-bloom-website.vercel.app/",
+  },
+  {
+    title: "CineVerse — Streaming Platform",
+    description:
+      "Netflix-inspired streaming experience with cinematic landing page, immersive hero artwork, browsable movie & TV catalogues, category filters, and a polished dark UI built for binge-friendly content discovery on any device.",
+    image: "/cineverse.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/UI", "Streaming", "Responsive"],
+    demo: "https://v0-cine-verse-project.vercel.app/",
+  },
+  {
+    title: "Sweet Treat Haven — Dessert E-commerce",
+    description:
+      "Boutique dessert e-commerce storefront with curated categories (Cakes & Pastries, Cookies, Frozen Desserts, Puddings, Small Bites, Pies & Tarts), rich hero, account/sign-in flow, and a warm, appetite-driven UI optimised for browsing and ordering on the go.",
+    image: "/sweetheaven.png",
+    tags: ["React", "Tailwind CSS", "E-commerce", "Responsive", "Netlify"],
+    demo: "https://sweet-treat-haven.netlify.app/",
+  },
+  {
     title: "TaskMaster",
     description:
       "The simple, effective way to organize your tasks and boost productivity. A modern task management application with a clean UI, allowing users to manage their to-do lists efficiently.",
@@ -165,12 +229,13 @@ const Projects = () => {
 
                   {/* Footer with Buttons - Pushed to bottom */}
                   <CardFooter className="p-0 mt-auto flex gap-3">
-                    {/* Restore GitHub and Live Demo buttons */}
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
-                        <Github size={16} /> GitHub
-                      </a>
-                    </Button>
+                    {project.github && (
+                      <Button variant="outline" size="sm" asChild>
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                          <Github size={16} /> GitHub
+                        </a>
+                      </Button>
+                    )}
                     <Button variant="default" size="sm" asChild>
                       <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                         <ExternalLink size={16} /> Live Demo

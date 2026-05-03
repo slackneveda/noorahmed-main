@@ -51,6 +51,136 @@ const certificates = [
     icon: Award,
     isDownload: true, // Flag to indicate this should be downloaded
   },
+  {
+    id: "meta-version-control",
+    title: "Version Control",
+    issuer: "Meta",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Meta's Version Control course on Coursera, gaining hands-on proficiency with Git and GitHub workflows including branching, merging, pull requests, and collaborative software development practices.",
+    link: "https://coursera.org/verify/0KMP9IPXCONT",
+    icon: Award,
+  },
+  {
+    id: "microsoft-power-platform",
+    title: "Introduction to Microsoft Power Platform",
+    issuer: "Microsoft",
+    date: "Issued Jun 2025",
+    description:
+      "Completed Microsoft's Power Platform course on Coursera, covering Power BI, Power Apps, Power Automate, and Power Virtual Agents to build low-code business solutions and automate workflows.",
+    link: "https://coursera.org/verify/1F9Z4HGKJDJM",
+    icon: Award,
+  },
+  {
+    id: "meta-advanced-react",
+    title: "Advanced React",
+    issuer: "Meta",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Meta's Advanced React course on Coursera, mastering hooks, custom components, JSX, advanced state management, performance optimization, and integrating React with REST and GraphQL APIs.",
+    link: "https://coursera.org/verify/4STVBIG685UJ",
+    icon: Award,
+  },
+  {
+    id: "meta-html-css",
+    title: "HTML and CSS in Depth",
+    issuer: "Meta",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Meta's HTML and CSS in Depth course on Coursera, covering semantic HTML, responsive layouts, Flexbox, Grid, advanced CSS selectors, and modern web styling techniques.",
+    link: "https://coursera.org/verify/5P7SLSA3BO3V",
+    icon: FileText,
+  },
+  {
+    id: "meta-ux-ui-design",
+    title: "Principles of UX/UI Design",
+    issuer: "Meta",
+    date: "Issued Aug 2025",
+    description:
+      "Completed Meta's Principles of UX/UI Design course on Coursera, learning user research, wireframing, prototyping, accessibility, and design systems to create intuitive and engaging user experiences.",
+    link: "https://coursera.org/verify/5O8D3T02Y18B",
+    icon: Award,
+  },
+  {
+    id: "ibm-prompt-engineering",
+    title: "Generative AI: Prompt Engineering Basics",
+    issuer: "IBM",
+    date: "Issued Jul 2025",
+    description:
+      "Completed IBM's Prompt Engineering course on Coursera, mastering prompt design techniques, best practices, and tools to effectively interact with large language models and generative AI systems.",
+    link: "https://coursera.org/verify/C7WAQSSR3ZEF",
+    icon: Award,
+  },
+  {
+    id: "scrimba-cursor-ai",
+    title: "Vibe Coding with Cursor AI",
+    issuer: "Scrimba",
+    date: "Issued Jun 2025",
+    description:
+      "Completed Scrimba's Vibe Coding with Cursor AI course on Coursera, gaining practical skills in AI-assisted development workflows, prompt-driven coding, and leveraging Cursor AI to accelerate software delivery.",
+    link: "https://coursera.org/verify/ENGAVNNMQF0C",
+    icon: Award,
+  },
+  {
+    id: "microsoft-dynamics-365",
+    title: "Introduction to Microsoft Dynamics 365",
+    issuer: "Microsoft",
+    date: "Issued Jun 2025",
+    description:
+      "Completed Microsoft's Dynamics 365 course on Coursera, covering CRM and ERP fundamentals, business applications, and how Dynamics 365 streamlines sales, customer service, and operations.",
+    link: "https://coursera.org/verify/G6OQURR0AX0E",
+    icon: Award,
+  },
+  {
+    id: "meta-javascript",
+    title: "Programming with JavaScript",
+    issuer: "Meta",
+    date: "Issued Jun 2025",
+    description:
+      "Completed Meta's Programming with JavaScript course on Coursera, mastering core JavaScript concepts including variables, functions, objects, DOM manipulation, asynchronous programming, and test-driven development.",
+    link: "https://coursera.org/verify/P5FK00F1T6F9",
+    icon: Award,
+  },
+  {
+    id: "deeplearning-genai-everyone",
+    title: "Generative AI for Everyone",
+    issuer: "DeepLearning.AI",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Andrew Ng's Generative AI for Everyone course on Coursera, gaining a strong understanding of how generative AI works, real-world applications, lifecycle of AI projects, and responsible AI use.",
+    link: "https://coursera.org/verify/Q1NFNXCZSMF6",
+    icon: Award,
+  },
+  {
+    id: "meta-frontend-intro",
+    title: "Introduction to Front-End Development",
+    issuer: "Meta",
+    date: "Issued Jun 2025",
+    description:
+      "Completed Meta's Introduction to Front-End Development course on Coursera, building a solid foundation in HTML, CSS, responsive design, Bootstrap, and the modern front-end development ecosystem.",
+    link: "https://coursera.org/verify/S2YC4YWVJ4W7",
+    icon: FileText,
+  },
+  {
+    id: "meta-react-basics",
+    title: "React Basics",
+    issuer: "Meta",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Meta's React Basics course on Coursera, learning to build interactive single-page applications with React components, props, state, hooks, and routing.",
+    link: "https://coursera.org/verify/T8NDL4YWUEL3",
+    icon: Award,
+  },
+  {
+    id: "deeplearning-ai-everyone",
+    title: "AI For Everyone",
+    issuer: "DeepLearning.AI",
+    date: "Issued Jul 2025",
+    description:
+      "Completed Andrew Ng's AI For Everyone course on Coursera, gaining a non-technical overview of AI strategy, machine learning workflows, organizational AI adoption, and the ethical implications of AI.",
+    link: "https://coursera.org/verify/WP8GT55FJOKF",
+    icon: Award,
+  },
   // Add more certificates here...
 ]
 

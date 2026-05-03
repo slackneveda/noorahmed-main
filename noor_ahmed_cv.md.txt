@@ -1,0 +1,203 @@
+| **NOOR AHMED**<br><br>Full Stack Web Developer<br><br>_Frontend \| Backend \| AI Integration_ | Email: <slackneveda@gmail.com><br><br>Mobile: +92-310-7005399<br><br>Location: Lahore, Pakistan<br><br>Portfolio: noorahmedportfolio.vercel.app<br><br>LinkedIn: noor-ahmed-1089311b4 |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+_Passionate Full Stack Developer with 2+ years of experience delivering end-to-end web applications - from responsive Next.js frontends to_
+
+_robust Django, C#, and Node.js backends - with hands-on experience integrating AI/LLM capabilities into real-world products._
+
+**CORE COMPETENCIES**
+
+| Next.js / React.js Development    | REST API Design & Development    | Django & Python Backend   |
+| --------------------------------- | -------------------------------- | ------------------------- |
+| C# / ASP.NET Core Engineering     | Node.js / Express.js             | PostgreSQL & MongoDB      |
+| TypeScript & JavaScript (ES6+)    | JWT Auth & Role-Based Access     | AI/LLM API Integration    |
+| Responsive & Accessible UI Design | Microservices & MVC Architecture | Git, GitHub & CI/CD       |
+| Redux & State Management          | Docker & Cloud Deployment        | Agile / Scrum Methodology |
+
+**PROFESSIONAL SUMMARY**
+
+- Versatile Full Stack Web Developer with 2+ years of hands-on experience architecting, building, and shipping production-grade web applications across the complete technology stack - from dynamic Next.js/React.js frontends to scalable Django, ASP.NET Core, and Node.js backends.
+- Strong command of modern frontend engineering: component-driven UI architecture with Next.js 14 App Router, server-side rendering (SSR), static site generation (SSG), React hooks, Redux Toolkit, and TypeScript - consistently delivering responsive, accessible, and high-performance user experiences.
+- Proficient backend developer across multiple ecosystems: Python/Django REST Framework for data-heavy applications, C#/ASP.NET Core for enterprise-grade APIs and Microsoft platform integrations, and Node.js/Express for lightweight, event-driven services.
+- Experienced in designing and building RESTful APIs, implementing JWT and OAuth 2.0 authentication, managing relational databases (PostgreSQL, SQL Server) and NoSQL stores (MongoDB, Redis), and connecting services through clean, well-documented API contracts.
+- Practical experience integrating AI/LLM capabilities - including Anthropic Claude and OpenAI APIs - into full-stack applications as a functional feature layer, enabling conversational interfaces and intelligent automation without over-engineering.
+- Collaborative team player with a track record of delivering across Agile/Scrum teams, contributing to code reviews, technical planning, and cross-timezone remote collaboration with international organizations.
+
+**PROFESSIONAL EXPERIENCE**
+
+**Associate Engineer - Full Stack & AI Integration**
+
+**Prismware Technologies** | Remote | Toronto, Canada | June 2025 - Present
+
+_Prismware Technologies builds AI-powered enterprise SaaS platforms, specializing in intelligent automation and conversational interfaces for North American clients._
+
+**Responsibilities**
+
+- Develop and maintain full-stack web applications using Next.js (App Router, SSR/SSG) on the frontend and Python FastAPI on the backend, delivering end-to-end features across the entire product lifecycle from design to deployment.
+- Build and integrate LLM-powered chatbot features using Anthropic Claude API and LangChain as a pragmatic AI layer within existing full-stack applications, handling context management, streaming responses, and prompt design.
+- Design and implement RESTful API services with FastAPI and Django REST Framework, including data serialization, input validation, error handling, and OpenAPI/Swagger documentation for frontend and third-party consumers.
+- Engineer responsive, accessible React.js and Next.js frontends with Tailwind CSS, implementing real-time streaming chat UIs using Server-Sent Events (SSE) and dynamic data-fetching with React Query.
+- Manage PostgreSQL database schemas, write optimized queries, design data models for multi-tenant SaaS architectures, and implement caching strategies using Redis to improve API response performance.
+- Participate in Agile sprints across distributed teams - contributing to sprint planning, technical design discussions, pull request reviews, and maintaining high code quality standards on GitHub.
+
+**Key Achievements**
+
+- Delivered a complete AI chatbot feature within a Next.js/FastAPI lending portal (ECHL) - including frontend streaming UI and backend LLM integration - shipped on schedule to production within 6 weeks.
+- Built a reusable full-stack chatbot module (Next.js + FastAPI + Claude API) later adopted across two additional client projects, reducing integration time by an estimated 40%.
+- Recognized by senior engineers for independently owning feature delivery from requirement gathering through deployment on a remote international team within the first two months.
+
+**Full Stack Developer**
+
+**Young Dev** | Lahore, Pakistan | July 2024 - July 2024
+
+_Young Dev is a software development studio delivering custom web applications and digital products for SMEs across Pakistan._
+
+**Responsibilities**
+
+- Built full-stack web applications with React.js/Redux Toolkit frontends and Django REST Framework backends, covering the complete development lifecycle from database schema design through UI implementation and API integration.
+- Developed secure, production-ready REST APIs with Django REST Framework - implementing JWT authentication, custom permission classes, serializer validation, and versioned endpoint design following RESTful best practices.
+- Designed and optimized PostgreSQL database schemas using Django ORM, writing efficient queries and implementing database migrations for evolving application requirements.
+- Managed development workflows on GitHub using feature branching, pull requests, and peer code reviews - ensuring consistent code quality and smooth team collaboration across the project.
+- Integrated third-party APIs and payment gateways, handling authentication flows, webhook processing, and data transformation within the Django backend service layer.
+
+**Frontend Developer**
+
+**XcelTK** | Lahore, Pakistan | March 2023 - June 2024
+
+_XcelTK is a technology company delivering SaaS products and custom enterprise web applications for clients across Pakistan and the Middle East._
+
+**Responsibilities**
+
+- Engineered responsive, cross-browser React.js web applications using functional components, custom hooks, React Context, and Redux Toolkit for global state management across complex multi-page SaaS products.
+- Integrated RESTful APIs using Axios and React Query, handling asynchronous data fetching, caching, loading states, error boundaries, and optimistic UI updates to deliver smooth, reliable user experiences.
+- Translated Figma UI/UX wireframes into pixel-perfect, accessible web interfaces using Tailwind CSS and Material UI, closely collaborating with designers to ensure design fidelity and responsiveness across all screen sizes.
+- Implemented frontend performance optimizations including code splitting with React.lazy, dynamic imports, image optimization, and memoization techniques - reducing average page load time by 35%.
+- Built and documented reusable component libraries, enabling faster feature development across multiple product lines and reducing frontend duplication across teams.
+
+**Key Achievements**
+
+- Delivered 6+ production React.js applications over 15 months, consistently meeting sprint deadlines and receiving positive client stakeholder feedback on UI quality.
+- Led migration of legacy class-based React components to functional components with hooks across 2 major products, improving code readability and reducing bundle size.
+- Reduced frontend bug reports by 25% through implementing React Testing Library unit tests and establishing component-level testing standards across the frontend team.
+
+**KEY PROJECTS**
+
+**ECHL - AI Lending Portal | Full Stack Developer**
+
+- Built a full-stack lending portal featuring an AI-powered chatbot for natural language loan queries, enabling customers to explore products, check eligibility, and get guided through the application process.
+- Developed the Next.js frontend with a real-time streaming chat interface (SSE), multi-step loan application forms, dynamic product cards, and server-side data fetching using Next.js App Router and React Server Components.
+- Built the FastAPI backend handling REST API endpoints, LLM API integration (Anthropic Claude), session context management, and PostgreSQL data persistence for user interactions and application data.
+- Stack: Next.js 14, TypeScript, Tailwind CSS, FastAPI (Python), PostgreSQL, Anthropic Claude API, Vercel.
+
+**WORN - Enterprise Ticketing System | Full Stack Developer (C# / .NET)**
+
+- Customized and extended Microsoft Dynamics 365 with automated ticket routing logic, SLA-based escalation rules, multi-status lifecycle tracking, and email notification workflows - significantly streamlining internal IT support operations.
+- Developed backend integration services in C#/ASP.NET Core, exposing clean REST API endpoints that connect Dynamics 365 with internal dashboards and third-party tools using Power Automate flows.
+- Designed data models in Microsoft Dataverse, wrote C# business logic plugins, and built custom Entity Framework-backed endpoints for reporting and analytics features consumed by the frontend team.
+- Stack: C#, ASP.NET Core, Entity Framework Core, Microsoft Dynamics 365, Dataverse, Power Automate, REST APIs.
+
+**Guestx - Automotive Business Dashboard | Full Stack Developer**
+
+- Built a full-stack business intelligence dashboard for automotive dealerships featuring real-time call tracking, lead management, customer interaction timelines, and sales pipeline analytics across multiple locations.
+- Developed a Next.js frontend with data visualization components (charts, KPI cards, filterable tables) consuming live data from a C#/ASP.NET Core backend through REST APIs and SignalR WebSocket connections for real-time updates.
+- Engineered the ASP.NET Core backend connected to Microsoft Dataverse for business data persistence, implementing CRUD operations, business rule enforcement, and real-time event broadcasting via SignalR.
+- Stack: Next.js, TypeScript, Tailwind CSS, C#, ASP.NET Core, SignalR, Microsoft Dataverse, REST APIs.
+
+**AI-Based Food Delivery System | Full Stack Developer | Academic Capstone**
+
+- Designed and built a full-stack food delivery web application with an AI chatbot feature allowing customers to browse menus, place orders, and get recommendations through natural language conversation.
+- Developed the React.js frontend with a chat interface, menu browsing UI, cart management, and order tracking - and built the Django REST Framework backend with product, order, and user management APIs.
+- Integrated a lightweight LLM API layer for the chatbot feature, handling user intent parsing and menu recommendations as an API-connected feature on top of the core Django backend.
+- Stack: React.js, Python, Django REST Framework, PostgreSQL, Node.js (middleware), LLM API, Vercel.
+
+**Additional: Node.js & Express Projects**
+
+- Built several RESTful API services using Node.js/Express.js with MongoDB, including user authentication systems with JWT, file upload handling with Multer, and real-time notification features using Socket.io.
+- Developed a RESTful e-commerce backend in Node.js with product catalog management, shopping cart logic, Stripe payment integration, and order lifecycle management with email confirmation via Nodemailer.
+
+**TECHNICAL SKILLS**
+
+**Frontend Development**
+
+**Frameworks & Libraries:** Next.js 14 (App Router, SSR, SSG, RSC), React.js, TypeScript, JavaScript (ES6+)
+
+**State Management:** Redux Toolkit, Zustand, React Query (TanStack), Context API, SWR
+
+**UI & Styling:** Tailwind CSS, Material UI, Shadcn/UI, Radix UI, CSS Modules, Responsive Design, WCAG Accessibility
+
+**Performance:** Code Splitting, Lazy Loading, React.memo / useMemo, Image Optimization, Core Web Vitals
+
+**Tools:** Figma (design handoff), Storybook, React Testing Library, Jest, Axios, React Hook Form
+
+**Backend Development**
+
+**Python / Django:** Django, Django REST Framework (DRF), FastAPI, Celery (task queues), Pydantic, Pytest
+
+**C# / .NET:** ASP.NET Core Web API, Entity Framework Core, SignalR, LINQ, Dependency Injection, xUnit
+
+**Node.js:** Express.js, REST API design, Socket.io, Multer, Nodemailer, JWT middleware
+
+**API Design:** RESTful APIs, OpenAPI/Swagger, versioning, error handling, rate limiting
+
+**Auth & Security:** JWT, OAuth 2.0, Role-Based Access Control (RBAC), HTTPS, CORS, input validation
+
+**Databases**
+
+**Relational:** PostgreSQL, MySQL, Microsoft SQL Server, SQLite
+
+**NoSQL:** MongoDB, Redis (caching & session management)
+
+**ORM / ODM:** Django ORM, Entity Framework Core, Mongoose, SQLAlchemy
+
+**Enterprise:** Microsoft Dataverse, Dynamics 365 data model
+
+**AI / LLM Integration (Applied)**
+
+**APIs & SDKs:** Anthropic Claude API, OpenAI API, Vercel AI SDK
+
+**Techniques:** Prompt Engineering, LLM API integration, Streaming responses (SSE), Context management
+
+**Tooling:** LangChain (basics), RAG concepts, vector search fundamentals
+
+**Cloud, DevOps & Tools**
+
+**Deployment:** Vercel, AWS (EC2, S3, basics), Docker, Docker Compose
+
+**Version Control:** Git, GitHub - GitFlow, PR reviews, branch management
+
+**CI/CD:** GitHub Actions, automated test pipelines, environment-based deployments
+
+**Microsoft Stack:** Dynamics 365, Power Automate, Microsoft Dataverse, Azure DevOps (basics)
+
+**Dev Tools:** VS Code, Postman, Insomnia, Figma, Jira, Trello
+
+**EDUCATION & TRAINING**
+
+**Formal Education**
+
+**Bachelor of Science - Information Engineering Technology**
+
+University of Lahore, Lahore, Pakistan | September 2022 - Present | CGPA: 3.80 / 4.00
+
+- Relevant Coursework: Data Structures & Algorithms, Database Systems, Software Engineering, Computer Networks, Web Technologies, Object-Oriented Programming, Artificial Intelligence (introductory).
+- Capstone Project: AI-Based Food Delivery System - full-stack application with LLM chatbot integration, awarded distinction for practical software engineering and AI feature implementation.
+
+**Continuous Learning**
+
+- Next.js & Advanced React Patterns - App Router, React Server Components, streaming, and full-stack patterns (Udemy / official docs, 2024-2025)
+- ASP.NET Core & C# Web API Development - Microsoft Learn pathway with project-based application
+- Django REST Framework & Python Backend Engineering - Udemy, official Django documentation
+- Node.js & Express.js Backend Development - API design, authentication, and database integration
+- AI/LLM API Integration - Anthropic documentation, OpenAI cookbook, prompt engineering fundamentals
+
+**PERSONAL INFORMATION**
+
+**Languages:** English (Professional), Urdu (Native)
+
+**Nationality:** Pakistani | Open to Remote & Relocation Opportunities
+
+**Work Preference:** Remote / Hybrid / On-site | Availability: Immediate
+
+**Dev Tools:** VS Code, Postman, Figma, Git, Docker, Microsoft Office Suite
+
+References available upon request | noorahmedportfolio.vercel.app

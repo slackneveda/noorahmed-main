@@ -103,13 +103,19 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With over a year of dedicated experience as a full-stack developer, I specialize in building polished, high-performance, and responsive web applications. My frontend expertise encompasses modern HTML5, CSS3, and JavaScript, brought to life with React.js. I leverage Tailwind CSS and Bootstrap for rapid development and accessible, consistent styling.
+                  Versatile, results-driven <span className="font-medium text-foreground">Full Stack AI Developer with 2+ years</span> of hands-on experience designing, building, and deploying intelligent web applications powered by modern AI/ML technologies.
                 </p>
                 <p>
-                  On the backend, I utilize Python and Django to architect robust RESTful APIs, ensuring seamless integration with databases like MySQL and MongoDB. I prioritize reliability and efficiency throughout the development lifecycle. Rigorous API validation using tools like Insomnia, environment containerization with Docker, and streamlined deployments via Netlify or Vercel (leveraging global CDNs and automated CI/CD pipelines) are integral to my workflow.
+                  I work end-to-end across the stack &mdash; from responsive <span className="font-medium text-foreground">React.js / Next.js</span> frontends to robust <span className="font-medium text-foreground">Python/Django</span> and <span className="font-medium text-foreground">C#/ASP.NET Core</span> backends with scalable REST APIs.
                 </p>
                 <p>
-                  My methodology is grounded in Git for version control, Agile principles for iterative development, and a commitment to delivering clean, well-documented, secure code that directly addresses user needs and business objectives.
+                  Deep focus on applied AI engineering: <span className="font-medium text-foreground">RAG pipelines, LLM integration, autonomous agents, and prompt engineering</span> using Anthropic Claude, OpenAI, LangChain, and the Vercel AI SDK.
+                </p>
+                <p>
+                  Shipped enterprise-grade products including an AI lending portal (ECHL), an automotive analytics dashboard (Guestx), Microsoft Dynamics 365 customizations (WORN), and an AI-powered food delivery platform.
+                </p>
+                <p>
+                  Strong DevOps and delivery practice &mdash; Git/GitHub, CI/CD, Docker, Vercel &mdash; with a track record of exceeding expectations on remote international teams and continuously upskilling in emerging AI and web technologies.
                 </p>
               </div>
               {/* Integrated Location/Availability */}

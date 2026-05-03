@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card" // Assuming these are Shadcn UI components
-import { FaCode, FaDatabase, FaGlobe } from "react-icons/fa"
-import { FiLayout, FiSearch, FiServer, FiGitBranch, FiStar } from "react-icons/fi"
+import { FaDatabase, FaGlobe, FaRobot } from "react-icons/fa"
+import { FiLayout, FiServer, FiGitBranch, FiStar } from "react-icons/fi"
 // Assuming HoveringCard adds a subtle lift/scale effect on hover.
 // If not, you might need to implement that or use Framer Motion's `whileHover`.
 import { HoveringCard } from "@/components/ui/hovering-card" // Make sure this component exists and works
@@ -12,34 +12,79 @@ import { HoveringCard } from "@/components/ui/hovering-card" // Make sure this c
 // Consider moving this to a separate file if it grows larger
 const skillCategories = [
   {
-    title: "Front-End Development",
-    icon: FiLayout, // Pass the component reference directly
-    skills: ["HTML5", "CSS3 / SCSS", "JavaScript (ES6+)", "TypeScript", "React.js / Next.js", "Tailwind CSS", "Bootstrap"],
+    title: "Frontend Development",
+    icon: FiLayout,
+    skills: [
+      "Next.js 14 (App Router, SSR, SSG, RSC)",
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit / Zustand",
+      "React Query (TanStack)",
+      "Tailwind CSS",
+      "Shadcn/UI & Radix UI",
+      "Material UI",
+    ],
   },
   {
-    title: "Back-End Development",
+    title: "Backend Development",
     icon: FiServer,
-    skills: ["Python", "Django", "RESTful APIs", "Django REST Framework", "JWT Authentication", "API Testing"],
+    skills: [
+      "Python — Django, DRF, FastAPI",
+      "C# — ASP.NET Core, EF Core, SignalR",
+      "Node.js — Express.js, Socket.io",
+      "REST API Design & Versioning",
+      "JWT & OAuth 2.0 (RBAC)",
+      "OpenAPI / Swagger",
+    ],
   },
   {
     title: "Databases & Storage",
     icon: FaDatabase,
-    skills: ["MySQL", "MongoDB", "SQL Queries", "Database Design", "ORM Integration"],
+    skills: [
+      "PostgreSQL",
+      "MySQL & SQL Server",
+      "MongoDB",
+      "Redis (cache & sessions)",
+      "Microsoft Dataverse",
+      "Django ORM / EF Core / Mongoose",
+    ],
   },
   {
-    title: "Tools & Workflow",
-    icon: FiGitBranch,
-    skills: ["Git / GitHub", "Docker", "VS Code", "Insomnia", "Agile / Scrum", "CI/CD Pipelines"],
+    title: "AI / LLM Integration",
+    icon: FaRobot,
+    skills: [
+      "Anthropic Claude API",
+      "OpenAI API",
+      "Vercel AI SDK",
+      "LangChain (basics)",
+      "Prompt Engineering",
+      "Streaming responses (SSE)",
+      "RAG & vector search fundamentals",
+    ],
   },
   {
-    title: "Deployment & Cloud",
+    title: "Cloud, DevOps & Tools",
     icon: FaGlobe,
-    skills: ["Vercel", "Netlify", "AWS (S3, CloudFront)", "Docker Containers", "Serverless Functions"],
+    skills: [
+      "Vercel",
+      "AWS (EC2, S3)",
+      "Docker & Docker Compose",
+      "GitHub Actions CI/CD",
+      "Azure DevOps (basics)",
+      "Power Automate",
+    ],
   },
   {
-    title: "Web Concepts",
-    icon: FiSearch, // Changed from 'Other' to be more descriptive
-    skills: ["Responsive Design", "Web Performance", "SEO Fundamentals", "Accessibility (A11y)", "Security Best Practices"],
+    title: "Practices & Workflow",
+    icon: FiGitBranch,
+    skills: [
+      "Git / GitHub — GitFlow & PR reviews",
+      "Agile / Scrum",
+      "Responsive & Accessible (WCAG) UI",
+      "Core Web Vitals",
+      "Testing — Jest, RTL, xUnit, Pytest",
+      "Code Reviews & Pair Programming",
+    ],
   },
 ]
 

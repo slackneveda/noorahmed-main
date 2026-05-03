@@ -43,7 +43,7 @@ const Hero = () => {
   const linkedinUrl = "https://www.linkedin.com/in/noor-ahmed-1089311b4/"; // IMPORTANT: Verify URL
   const instagramUrl = "https://www.instagram.com/slack_neveda?igsh=OXN6YWlmYmJhem5k"; // IMPORTANT: Verify URL
   const profileImageUrl = "/noorbhai2.jpeg"; // IMPORTANT: Verify image exists at `public/noorbhai.jpeg`
-  const cvUrl = "/resume2.pdf"; // IMPORTANT: Verify CV exists at `public/resume2.pdf`
+  const cvUrl = "/Noor_Ahmed_CV.pdf"; // Latest CV in `public/`
   const cvFilename = "Noor-Ahmed-CV.pdf"; // Desired download filename
 
   // --- State for Role Cycling ---
