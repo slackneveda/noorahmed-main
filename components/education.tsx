@@ -42,11 +42,11 @@ const Education = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-2">
                       <Calendar className="h-5 w-5 text-muted-foreground" />
-                      <span>2022 - Present</span>
+                      <span>Sep 2022 - Jun 2026</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Award className="h-5 w-5 text-muted-foreground" />
-                      <span>Current CGPA: 3.84/4.00</span>
+                      <span>CGPA: 3.83/4.00</span>
                     </div>
                     <p className="text-muted-foreground mt-4">
                       Focusing on web development, software engineering, and computer networks. Actively participating

@@ -10,22 +10,23 @@ import { Button } from "@/components/ui/button"
 // Consider moving this to a separate data file (e.g., data/experience.js)
 const experiences = [
   {
-    title: "Associate Engineer – Full Stack & AI Integration",
+    title: "AI Developer",
     company: "Prismware Technologies",
     period: "June 2025 - Present",
     location: "Remote – Toronto, Canada",
     description:
-      "Building full-stack AI-powered SaaS platforms with Next.js (App Router, SSR/SSG) and Python FastAPI. Integrating Anthropic Claude and LangChain into production apps with streaming chat (SSE), multi-tenant PostgreSQL data models, and Redis caching. Collaborating across distributed Agile teams from requirements through deployment.",
+      "Delivered 8–10 enterprise projects for international clients, building scalable full-stack applications with React.js frontends and Python/FastAPI backends. Architected RAG pipelines combining vector databases, embedding models, and LLMs for enterprise AI chatbots, and shipped autonomous AI agents with Anthropic Claude and the Vercel AI SDK that process 300 documents daily and cut manual query resolution time by 60%. Led technical coordination across Canada–Pakistan teams, achieving 35% faster deployment cycles.",
     skills: [
+      "React.js",
       "Next.js",
       "TypeScript",
-      "FastAPI",
       "Python",
+      "FastAPI",
       "Anthropic Claude",
-      "LangChain",
-      "PostgreSQL",
-      "Redis",
-      "Tailwind CSS",
+      "Vercel AI SDK",
+      "RAG Pipelines",
+      "Vector Databases",
+      "Prompt Engineering",
     ],
   },
   {
@@ -43,24 +44,6 @@ const experiences = [
       "PostgreSQL",
       "JWT",
       "Git",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "XcelTK",
-    period: "March 2023 - June 2024",
-    location: "Lahore, Pakistan",
-    description:
-      "Engineered 6+ production React.js SaaS applications with Redux Toolkit and React Query. Translated Figma designs into pixel-perfect, accessible UIs with Tailwind CSS and Material UI. Drove a 35% reduction in load time via code splitting and memoization, and cut frontend bug reports by 25% by introducing React Testing Library standards.",
-    skills: [
-      "React.js",
-      "Redux Toolkit",
-      "React Query",
-      "Tailwind CSS",
-      "Material UI",
-      "Axios",
-      "Jest",
-      "React Testing Library",
     ],
   },
 ]

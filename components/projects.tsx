@@ -20,6 +20,30 @@ const projects = [
     demo: "https://lending-d4g4byg3fwesa0dx.centralus-01.azurewebsites.net/",
   },
   {
+    title: "Iacofano Delivery App",
+    description:
+      "Cross-platform delivery management app for drivers, built with Flutter. Drivers get a live dashboard of completed and in-progress orders, miles driven, and total earnings, filterable by date range and customer, plus order-number search, delivery status updates, order history, and driver profile management. Deployed on Azure Static Web Apps.",
+    image: "/iacofano.png",
+    tags: ["Flutter", "Dart", "Cross-Platform", "REST APIs", "Azure Static Web Apps", "Responsive"],
+    demo: "https://purple-mud-03f1f0e0f.7.azurestaticapps.net/",
+  },
+  {
+    title: "Iacofano Customer Portal",
+    description:
+      "Customer-facing ordering portal for an Italian catering business serving events of 10 to 500 guests. Built with Next.js and Payload CMS for menu and content management, letting customers browse the menu, build catering orders online, and schedule them for future dates. Orders flow into a Microsoft Dynamics 365 backend with Business Central integration for fulfilment and invoicing.",
+    image: "/iacofano-customer.png",
+    tags: ["Next.js", "TypeScript", "Payload CMS", "Dynamics 365", "Business Central", "Azure"],
+    demo: "https://iact35-customerapp-gza9ckdae0haaces.centralus-01.azurewebsites.net/",
+  },
+  {
+    title: "Mectron Field Sales",
+    description:
+      "Mobile field sales app for a healthcare equipment company, built with Flutter on a Microsoft Dynamics 365 backend. Sales reps manage leads, accounts, contacts, and opportunities, track pipeline metrics such as win rate and qualified vs. disqualified leads, and export data to CSV. Integrated the Telnyx API for in-app calling and AI features to support reps in the field.",
+    image: "/mectron.png",
+    tags: ["Flutter", "Dart", "Dynamics 365", "Telnyx API", "AI Integration", "Azure"],
+    demo: "https://mango-moss-027c8710f.7.azurestaticapps.net/",
+  },
+  {
     title: "WORN — Enterprise Ticketing System",
     description:
       "Customized and extended Microsoft Dynamics 365 with automated ticket routing, SLA-based escalation, multi-status lifecycle tracking, and email workflows. Backed by C#/ASP.NET Core integration services exposing clean REST APIs and Power Automate flows.",
