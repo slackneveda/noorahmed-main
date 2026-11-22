@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { GraduationCap, Calendar, Award } from "lucide-react"
+import { Badge } from "@/components/ui/badge"
+import { GraduationCap, Calendar, Award, Lightbulb } from "lucide-react"
 import { BackgroundGradient } from "@/components/ui/background-gradient"
 
 const Education = () => {
@@ -35,7 +36,7 @@ const Education = () => {
                   </div>
                   <div>
                     <CardTitle className="text-xl">University of Lahore</CardTitle>
-                    <p className="text-muted-foreground">BS in Information and Engineering Technology (IET)</p>
+                    <p className="text-muted-foreground">Bachelor of Science in Information Engineering Technology</p>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -52,6 +53,23 @@ const Education = () => {
                       Focusing on web development, software engineering, and computer networks. Actively participating
                       in tech events and workshops to enhance practical skills.
                     </p>
+                    <div className="mt-6 rounded-lg border border-border/50 bg-muted/30 p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <Lightbulb className="h-5 w-5 text-primary" />
+                        <h3 className="font-semibold">Final Year Project — AI-Based Food Delivery System</h3>
+                      </div>
+                      <p className="text-sm text-muted-foreground leading-relaxed">
+                        Architected a conversational AI-powered food ordering system using Django, React.js, OpenAI
+                        APIs, vector databases, and PostgreSQL for intelligent recommendations.
+                      </p>
+                      <div className="flex flex-wrap gap-2 mt-3">
+                        {["Django", "React.js", "OpenAI API", "Vector Databases", "PostgreSQL"].map((tag) => (
+                          <Badge key={tag} variant="secondary" className="text-xs font-normal">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
